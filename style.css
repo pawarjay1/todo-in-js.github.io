@@ -26,9 +26,23 @@ body {
 }
 
 .centered {
-    text-align: center;
+    text-align: center;   
 }
 
+.todoLists{
+    width: 345px; /* Set a specific width */
+    height: 250px; /* Set a specific height */
+    overflow-y: auto; /* Enables vertical scrolling */
+    overflow-x: hidden; /* Hides horizontal scrolling */
+    padding: 10px;
+    /* border: 1px solid #ccc; Optional: Adds a border */
+    /* background-color: #f9f9f9;  */
+}
+
+
+.todoLists::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar */
+}
 /* Title Styling */
 h1 {
     font-size: 2.2rem;
