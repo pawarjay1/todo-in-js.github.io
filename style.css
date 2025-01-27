@@ -108,6 +108,9 @@ form {
     background-color: #f1f1f1;
 }
 
+.para{
+    color: red; 
+}
 
 /* Responsiveness */
 @media (max-width: 450px) {
