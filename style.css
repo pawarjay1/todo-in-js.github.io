@@ -37,6 +37,7 @@ body {
     padding: 10px;
     /* border: 1px solid #ccc; Optional: Adds a border */
     /* background-color: #f9f9f9;  */
+    -webkit-overflow-scrolling: touch;
 }
 
 
